@@ -1,0 +1,133 @@
+/* other attributes*/
+hr
+{
+  width: auto;
+}
+
+body
+{ 
+  justify-items: center;
+  background-color: beige;
+  font-family: georgia;
+}
+/* heading*/
+
+.head
+{
+  height: 800px;
+  width: 100%;
+}
+@media screen and (max-width:900px){
+.head
+{
+  height: 100%;
+  width: 100%;
+}
+  
+}
+.text3
+{
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: purple;
+  padding: 10px;
+}
+@media screen and (max-width:700px){
+.text3
+{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color:purple;
+  padding: 10px;
+}
+}
+/*carousel na GIF HAHAHAHAHAHA*/
+.img
+{
+  height: auto;
+  width: auto;
+  padding: 10px;
+}
+@media screen and (max-width:800px){
+.img
+{
+  height: 250px;
+  width: auto;
+  padding: 10px;
+}
+
+}
+
+/* body*/
+.container
+{
+  margin: 20px;
+  padding: 10px;
+  width: 98%;
+}
+.column
+{
+  width:auto;
+  display: flex;
+  flex-direction: row;
+  font-size: auto;
+  height: auto;
+  gap: 15px;
+  text-align: justify-all;
+  color: purple;
+}
+.img1
+{
+   width: 85%;
+  height: auto;
+}
+.col1 .col2 .col3
+{
+  text-align: center;
+  height: auto;
+  padding: 5px;
+}
+/*footer*/
+.logo img
+{
+  width: 400px;;
+  height: 400px;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+.bg2
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: purple;
+  width:auto;
+  height: auto;
+  
+}
+
+.text
+{
+  margin-left: 40px;
+  font-weight: bolder;
+  font-family: georgia;
+  font-size: 45px;
+  color: white;
+  text-align: left;
+}
+.text2
+{
+  text-align:center;
+  padding: 20px;
+}
+.button
+{
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  border-radius: 10px;
+  border: solid white;
+  font-size: 40px;
+}
